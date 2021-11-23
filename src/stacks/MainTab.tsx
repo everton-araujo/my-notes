@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import { CustomTabBar } from "../components/CustomTabBar";
 import { Home } from "../pages/Home";
-import { VoiceRecorder } from "../pages/VoiceRecorder";
+import VoiceRecorder from "../pages/VoiceRecorder";
 import { Notes } from "../pages/Notes";
 
 const Tab = createBottomTabNavigator();
